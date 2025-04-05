@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パスワード保護ページ</title>
+    <script>
+        function validatePassword() {
+            const inputPassword = document.getElementById("password").value;
+            const correctPassword = "ToyoMetroTid_2008";
+            if (inputPassword === correctPassword) {
+                window.location.href = "index.html";
+            } else {
+                alert("パスワードが間違っています。");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>パスワード保護ページ</h1>
+    <p>次のページに進むには、正しいパスワードを入力してください。</p>
+    <input type="password" id="password" placeholder="パスワードを入力">
+    <button onclick="validatePassword()">送信</button>
+</body>
+</html>
