@@ -1,5 +1,5 @@
 async function fetchJSONData() {
-    const url = 'https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLjkBL-b-o1HHQRaPVgFmh2hazEGdhM1xsNBjGZm8Mo8AFFneLJj9eRbZutnCJcpm3WuAtegmV0XMRGODViAaIaFPkcEBn6zmnGdOtaSqSUsMYbVfNtma2Fm86_AQVyDqgs-sFAc5mAb8-aRP-RBy8TmfiehOenfN7O7DU9jOZ4NuQ51Aew2_IuXvTgUh1L6EYS4r4pMC9A7Z6WE9xIcyLrqHLFnAUipV6iI5L2XP2RXhAqzdKf1DWbbGNb527dBNiGAL8mlcFucQWsa43BR0A5mMRIujwSeq5KUuagj&lib=MWJHYyCdk9uZe3rmtRHV_FYD_GDqAveGp';
+    const url = 'https://script.google.com/macros/s/AKfycbxL41LQBblbN9nYw_aTpBSSkaMKzxWFQkjhTuDUPztrM4Hsp6D7lX8JG7GoU3_RiO1TIQ/exec';
     try {
         const response = await fetch(url);
         const jsonData = await response.json();
